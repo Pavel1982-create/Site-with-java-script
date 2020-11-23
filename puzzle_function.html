@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Загадки</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="puzzle_function.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header_nav">
+            <a href="index.html" class="main">Главная</a>
+            <span>/</span>
+            <a href="#" target="a_blank">Загадки</a>
+            <span>/</span>
+            <a href="guess.html">Угадайка</a>
+            <span>/</span>
+            <a href="guess_infinity.html">Угадайка мультиплеер</a>
+            <span>/</span>
+            <a href="generate_password.html">Генератор паролей</a>
+        </div>
+    </div>    
+    <div class="content_puzzle">
+        <h1>Игра в загадки</h1>
+        <div class="box">
+            <p>Зимой и летом одним цветом?</p>
+            <input type="text" id="userAnswer1">
+            
+            <p>Красная девица сидит в темнице, а коса на улице?</p>
+            <input type="text" id="userAnswer2">
+            
+            <p>Маленький, удаленький сквозь землю прошел, красную шапочку нашел?</p>
+            <input type="text" id="userAnswer3">
+            
+            <p>Летом серый зимой - зимой белый?</p>
+            <input type="text" id="userAnswer4">
+            
+            <p>Два конца, два кольца - посередине гвоздик?</p>
+            <input type="text" id="userAnswer5">
+            <br>
+            <a href="#" onclick="compareAnswers();">Ответить</a>
+
+        </div>
+    </div>
+    <div class="footer">
+        <p class="copy">Copyright &copy; 2020 Pavel Konev</p>
+   </div>
+</body>
+</html>

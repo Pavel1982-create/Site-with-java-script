@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай число</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="guess.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="header_nav">
+            <a href="index.html" class="main">Главная</a>
+            <span>/</span>
+            <a href="puzzle_function.html" target="a_blank">Загадки</a>
+            <span>/</span>
+            <a href="#">Угадайка</a>
+            <span>/</span>
+            <a href="guess_infinity.html">Угадайка мультиплеер</a>
+            <span>/</span>
+            <a href="generate_password.html">Генератор паролей</a>
+        </div>
+    </div> 
+    <div class="content_guess">
+        <h1>Игра угадайка</h1>
+        <p id="info">Угадайте число от 0 до 100</p>
+        <input type="text" id="userNumberText">
+        <br>
+        <a href="#" onclick="check();" id="button">Начать</a>
+    </div>
+    <div class="comment" id="content">Комментарий к вашему ответу:</div>   
+    <div class="footer">
+        <p class="copy">Copyright &copy; 2020 Pavel Konev</p>
+   </div>
+</body>
+</html>

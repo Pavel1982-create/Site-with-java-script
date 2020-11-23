@@ -1,0 +1,254 @@
+/* Стили для главной страницы */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 1920px;
+    height: 44px;
+    background-color: #dfdfdf;
+    border: 0.2px solid #b5b7ba;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.main{
+    font-family: HelveticaNeueCyr;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #000000;
+    text-decoration:none;
+    padding-right: 38px;
+}
+
+.header_nav a{
+    font-family: HelveticaNeueCyr;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #4d4d4d;
+    text-decoration:none;
+    padding-right: 37px;
+}
+
+span{
+    padding-right: 37px;
+}
+
+h1{
+    font-family: HelveticaNeueCyr;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #2e353d;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.content{
+    margin-top: 79px;
+}
+
+.content_center{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo{
+    
+    margin-left: 322px;
+    margin-right: 50px;
+}
+img{
+    width: 389px;
+    height: 389px;
+    border-radius: 194px;    
+}
+
+.box_text{
+    width: 824px;
+    height: 622px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 0px 0px rgba(69, 101, 117, 0.21);
+    margin-right: 335px;
+}
+
+.text{
+    padding-left: 103px;
+    padding-top: 51px;
+    padding-right: 51px;
+}
+
+p{
+    font-family: HelveticaNeueCyr;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #242424;
+}
+
+.ref{
+    text-decoration: underline;
+    color: #43728a;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 54px;
+}
+
+.icon img{
+    width: 136px;
+    height: 136px;
+}
+
+.icon_ref{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_ref a{
+    font-family: HelveticaNeueCyr;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #40678a;
+    text-decoration: none;
+}
+
+.footer{
+    height: 140px;
+    text-align: center;
+    background-color: #434445;
+    margin-top: 197px;
+}
+
+.copy{
+    font-family: HelveticaNeueCyr;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #a4a4a4;
+    padding-top: 61px;
+}
+
+/* Стили для угадайки */
+
+.content_guess, .content_password{
+    /*min-width: 1300px;
+    margin: 0 auto;
+    min-height: calc(100vh - 140px);*/
+    background-color: #ffffff;
+    width: 1238px;
+    min-height: 500px;
+    margin: 50px auto 0 auto;
+    padding-top: 37px;
+    padding-left: 38px;
+    padding-bottom: 100px;
+}
+
+.content_guess p, .content_password p{
+    color: #242424;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 37px;
+    margin-bottom: 30px;
+}
+
+.content_guess input{
+    border: 1px solid #a0a0a0;
+    background-color: #f5f5f5;
+    width: 457px;
+    height: 34px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+
+.content_guess a{
+    display: block;
+    float: left;
+    background-color: #8cbbd3;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 11px 51px;
+}
+
+.comment{
+    padding-left: 38px;
+    color: #242424;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 37px;
+}
+/* Стили для игры в загадки */
+
+.box{
+    background-color: #ffffff;
+    width: 1238px;
+    min-height: 500px;
+    margin: 50px auto 0 auto;
+    padding-top: 37px;
+    padding-left: 38px;
+    padding-bottom: 100px;
+}
+
+.box p{
+    color: #242424;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 37px;
+    margin-bottom: 30px
+}
+
+.box input{
+    border: 1px solid #a0a0a0;
+    background-color: #f5f5f5;
+    width: 457px;
+    height: 34px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+
+.box a{
+    display: block;
+    float: left;
+    background-color: #8cbbd3;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 11px 51px;
+}
+
+.button_password{
+    display: block;
+    background-color: #8cbbd3;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    padding: 11px 51px;
+}
+
+ul{
+    list-style: none;
+}
